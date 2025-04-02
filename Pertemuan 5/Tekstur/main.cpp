@@ -39,7 +39,7 @@ void initRendering() {
 	glEnable(GL_NORMALIZE);
 	glEnable(GL_COLOR_MATERIAL);
  
-	Image* image = loadBMP("pink.bmp");
+	Image* image = loadBMP("space.bmp");
 	_textureId = loadTexture(image);
 	delete image;
 }
